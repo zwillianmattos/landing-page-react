@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #80196C;
+  --color-secondary: #000B58;
+  --color-tertiaty: #99a0a3;
+
+  font-family: 'Gotham', sans-serif;
+}
+
+a { 
+  @apply text-red-700;
+}
+
+a:hover {
+  @apply border-b-2 border-red-700;
+}
+
+
+.bg-background {
+  
+background:
+linear-gradient(180deg, #131313 0%, #393939 100%),
+url(https://grainy-gradients.vercel.app/noise.svg);
+}
+
+.bg-background::after{
+  content: '';
+  isolation: isolate;
+}
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+.bg-primary  {
+  background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+}
+
+.text-gradient{
+  font-size: 32px;  
+  background:  -webkit-linear-gradient(var(--color-primary),   var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border:rgba(80, 79, 79, 1);
+}
+
+.AppButtonCtr {
+  background: linear-gradient(180deg, #DF7F46 0%, #EF8C30 51.57%, #EF752D 100%);
+  box-shadow: 0px 1px 5px #EF8C30;
+  border-radius: 11px;
+}
+
+.AppButtonCtr:hover {
+  background: linear-gradient(180deg, #DF7F46 0%, #EF8C30 51.57%, #EF752D 100%);
+  box-shadow: 0px 1px 8px #EF8C30;
+  border-radius: 11px;
+  border-color:#EF8C30;
+  border-bottom-width: 0px;
+}
+
+.AppCard{
+  background:
+      linear-gradient(45deg, #323232 0%, #3e3e3e 100%),
+      url(https://grainy-gradients.vercel.app/noise.svg);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.3px);
+-webkit-backdrop-filter: blur(10.3px);
+border: 1px solid rgba(99, 99, 99, 0.21);
+    
+}
+
+h1.w-full.my-2.text-5xl.font-bold.leading-tight.text-start{
+  position: relative;
+  z-index: 1;
+}
+
+
+h1.w-full.my-2.text-5xl.font-bold.leading-tight.text-start::before {
+  content: '';
+  z-index: -1;
+  background: radial-gradient(circle, var(--color-primary) 0%, rgba(2,0,36,0) 60%);
+  width: 120px;
+  height: 120px;
+  left: -40px;
+  bottom: -30px;
+  position: absolute;
+  opacity: 0.6;
+}
+
+h3.w-full.my-2.text-5xl.font-bold.leading-tight.text-center.text-slate-50{
+  position: relative;
+  z-index: 1;
+}
+
+
+h3.w-full.my-2.text-5xl.font-bold.leading-tight.text-center.text-slate-50::before {
+  content: '';
+  z-index: -1;
+  background: radial-gradient(circle, var(--color-primary) 0%, rgba(2,0,36,0) 60%);
+  width: 250px;
+  height: 250px;
+  left: 0;
+  bottom: 0;
+  top: -65px;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}

@@ -1,0 +1,178 @@
+{
+  "company": {
+    "name": "Tairine Fotografia",
+    "logo": "assets/images/logo_white 1.svg"
+  },
+  "navigation": [
+    {
+      "name": "Beneficios",
+      "href": "beneficios"
+    },
+    {
+      "name": "Conteudo",
+      "href": "conteudo"
+    },
+
+    {
+      "name": "O que dizem",
+      "href": "oquedizem"
+    },
+    {
+      "name": "Garantia",
+      "href": "garantia"
+    },
+    {
+      "name": "Duvidas",
+      "href": "duvidas"
+    }
+  ],
+  "callToAction": {
+    "text": "Acessar Plataforma",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Se torne um mestre no mundo da",
+    "subtitle": "fotografia",
+    "description": "Voce aprendera os truques ao tirar fotos e tambem dicas para editalas como um profissional",
+    "primaryAction": {
+      "text": "Quero evoluir",
+      "href": "#"
+    },
+    "video": "https://www.youtube.com/embed/xcJtL7QggTI"
+  },
+  "product": {
+    "subtitle": "Conteúdo",
+    "title": "O que você vai aprender ?",
+    "description": "Neste magnifico curso você vai aprender a criar conteudo para redes sociais, como:",
+    "items": [
+      {
+        "title": "Começando do zero e entendendo o programa",
+        "description": "apresentação do programa, menu de preferências, rgb e cmyk, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      },
+      {
+        "title": "Ferramentas principais, seleção e montagens",
+        "description": "ferramentas principais, seleção e montagens, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      },
+      {
+        "title": "Nível intermediário - aprendendo balanço e ajustes de cor, montagens profissionais e filtros",
+        "description": " aprendendo balanço e ajustes de cor, montagens profissionais e filtros, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      },
+      {
+        "title": "Layers de ajuste, channels, câmera raw, curvas e níveis",
+        "description": "layers de ajuste, channels, câmera raw, curvas e níveis, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      },
+      {
+        "title": "Nível avançado - modos de mesclagens, montagens complexas e preto e branco",
+        "description": "modos de mesclagens, montagens complexas e preto e branco, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      },
+      {
+        "title": "Carimbo, restauração, tratamento de pele avançado, distorções e edições profissionais",
+        "description": "carimbo, restauração, tratamento de pele avançado, distorções e edições profissionais, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      },
+      {
+        "title": "Nível profissional - criar filtros, manipulação avançada, HDR e animação",
+        "description": "criar filtros, manipulação avançada, HDR e animação, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      },
+      {
+        "title": "Conteúdo Bonus",
+        "description": " aprendendo balanço e ajustes de cor, montagens profissionais e filtros, criar novo arquivo e painel de layer, salvando e seleção - pentool - recorte profissional",
+        "img": null
+      }
+    ]
+  },
+  "praquem": {
+    "subtitle": "Capacitação",
+    "title": "Esse curso é para você ?",
+    "description": "Este curso é para você que:",
+    "items": [
+      {
+        "description": "Acha que não sabe como criar vídeos e eles acabam saindo ruins e desajeitados.",
+        "img": "/assets/images/image 1.png"
+      },
+      {
+        "description": "Deseja engajar seguidores e aumentar o alcance de suas redes.",
+        "img": "/assets/images/image 2.png"
+      },
+      {
+        "description": "Não sabe qual conteúdo irá gerar melhor engajamento e tem medo de testar.",
+        "img": "/assets/images/image 4.png"
+      },
+      {
+        "description": "Deseja vender produtos ou serviços com sucesso nas redes sociais com conteúdo interessante e atrativo.",
+        "img": "/assets/images/image 6.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "aaa",
+    "description": "aaa",
+    "items": []
+  },
+  "calltopurchase": {
+    "title": "Faça parte do próximo nível, eleve seus conhecimentos agora",
+    "action": {
+      "text": "Participar",
+      "href": "#"
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "priceDetails": "for one user",
+        "features": [
+          "1 user",
+          "Basic Support",
+          "1 GB of storage",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$15",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$29",
+        "priceDetails": "per user",
+        "features": [
+          "50 users",
+          "24/7 Support",
+          "100 GB of storage",
+          "Phone and Email support"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Política de privacidade",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "twitter": "",
+      "linkedin": ""
+    }
+  }
+}
